@@ -1,14 +1,35 @@
 
-ifJ = 0
-a = 0
+i = 0
+daysOfMonth = 30
+birthday = 15
+ans = 0
+while i < daysOfMonth &&  i < birthDay
+	
+	i = i + 1
 
-for i 15
-    a = i
-    
-endf
-a = a + 1
+endw
 
-
-b = 100
+birthdayIsMiddle = 0
+if daysOfMonth - birthday == birthday
+	
+	birthdayIsMiddle = 1
+	
+	if birthdayIsMiddle
+		a = 0
+		for i daysOfMonth
+			
+			if i >= birthDay
+				ans = ans + i
+			endif
+		endf
+	endif
+endif
+			
+				
+				 
+	
+	
+	
+	
 
     
