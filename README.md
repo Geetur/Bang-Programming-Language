@@ -11,3 +11,16 @@ Features of Bang are:
 | **Conditions** | Bang supports conditional expressions with the [if, elif, else, endif] keywords, which can be paired with any type of expression/value via implicit type conversion. |
 | **Loops**     | Bang supports loops via the [for, while, endf, endw] keywords. The for loop requires a variable iterator definition and an end-range value (e.g., 10). The while loop requires a condition. |
 | **Upcoming**  | Functions, lists, hashmaps, tuple assignments, explicit/implicit expression-assignments, and built-in functions. |
+
+# Example Bang Executable
+```
+ifJ = 0
+a = 0
+
+for i 15
+    a = a + i
+    
+endf
+
+b = 100
+```
