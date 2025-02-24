@@ -1,6 +1,6 @@
 from collections import deque
 ######################################################################
-# GLOBALS
+# GLOBALS hfhf hfg gdf
 ######################################################################
 #LANGUAGE CONSTRUCTS
 TKEYWORD = "KEYWORD"
