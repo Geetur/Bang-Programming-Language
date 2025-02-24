@@ -12,15 +12,48 @@ Features of Bang are:
 | **Loops**     | Bang supports loops via the [for, while, endf, endw] keywords. The for loop requires a variable iterator definition and an end-range value (e.g., 10). The while loop requires a condition. |
 | **Upcoming**  | Functions, lists, hashmaps, tuple assignments, explicit/implicit expression-assignments, and built-in functions. |
 
-# Example Bang Executable
-```
-ifJ = 0
-a = 0
+# Example Code
 
-for i 15
-    a = a + i
-    
+# Sum of 1-n
+```
+n = 15
+sumOfNumbers1ToN = 0
+for i n
+    sumOfNumbers1ToN = sumOfNumbers1ToN + i
 endf
 
-b = 100
+```
+# Nested if statements
+```
+a = 0
+if a == 0
+    a = a + 1
+    if a == 1
+        a = a + 1
+        if a == 2
+            a = 100
+        endif
+    endif
+endif
+success = a
+```
+# if-elif-else block
+
+```
+temp = 1
+i = 0
+birthDay = 15
+iEqualsBirthday = 0
+monthLength = 30
+
+while temp
+    if i == birthday
+        iEqualsBirthday = 1
+    elif birthday > i
+        i = i + 1
+        endif
+    else
+        temp = 0
+        endif
+    endif
 ```
